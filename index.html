@@ -24,85 +24,52 @@
 
     <main>
       <section class="hero">
-        <canvas class="hero-canvas" data-network-canvas aria-hidden="true"></canvas>
         <div class="hero-content">
-          <p class="eyebrow">AI-assisted security research</p>
+          <p class="eyebrow">Independent security research</p>
           <h1>SuperDevSecurity</h1>
           <p class="hero-copy">
-            Public work on using AI systems to accelerate vulnerability discovery, exploit analysis,
-            defensive engineering, and security research workflows.
+            Notes, tooling, and published work from independent research into AI-assisted vulnerability
+            discovery, exploit analysis, and defensive engineering.
           </p>
-          <div class="hero-actions">
-            <a class="button primary" href="research/">Read Research</a>
-            <a class="button secondary" href="tools/">Explore Tools</a>
-          </div>
         </div>
       </section>
 
-      <section class="section intro-grid" aria-label="Site areas">
-        <article>
-          <p class="kicker">Blog</p>
-          <h2>Working notes from active research.</h2>
-          <p>Short essays, build logs, experiment results, and practical notes from AI-accelerated security work.</p>
-          <a class="text-link" href="blog/">View posts</a>
-        </article>
-        <article>
-          <p class="kicker">Research</p>
-          <h2>Published findings and methods.</h2>
-          <p>Reports, reproducible methodology, benchmarks, and writeups intended to be cited or extended.</p>
-          <a class="text-link" href="research/">Browse publications</a>
-        </article>
-        <article>
-          <p class="kicker">Tools</p>
-          <h2>Public tooling for security teams.</h2>
-          <p>Open tools, demos, prompt harnesses, datasets, and reference implementations for security workflows.</p>
-          <a class="text-link" href="tools/">Open tooling</a>
-        </article>
-      </section>
+      <section class="section notebook-grid" aria-label="Site index">
+        <aside class="profile-note">
+          <p class="kicker">About</p>
+          <p>
+            This site is a working archive, not a product page. Expect incomplete threads,
+            reproducible artifacts where possible, and direct notes about what did or did not work.
+          </p>
+        </aside>
 
-      <section class="section split">
-        <div>
-          <p class="eyebrow">Current themes</p>
-          <h2>Research that treats AI as part of the security workflow.</h2>
-        </div>
-        <div class="theme-list">
-          <article>
-            <h3>Agentic vulnerability research</h3>
-            <p>How assisted agents inspect codebases, triage findings, produce proofs of concept, and avoid false confidence.</p>
-          </article>
-          <article>
-            <h3>Exploit development acceleration</h3>
-            <p>Repeatable approaches for using models to support root-cause analysis, harness creation, and exploit reasoning.</p>
-          </article>
-          <article>
-            <h3>Secure AI systems</h3>
-            <p>Threat modeling, evaluation, and operational controls for AI-enabled development and security tooling.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section latest">
-        <div class="section-heading">
-          <p class="eyebrow">Latest</p>
-          <h2>Start here</h2>
-        </div>
-        <div class="cards">
-          <article class="card">
+        <div class="index-list">
+          <article class="index-row">
             <p class="meta">Blog · Apr 2026</p>
-            <h3><a href="blog/ai-accelerated-security-research.html">What belongs in AI-accelerated security research?</a></h3>
-            <p>A framing note for the kinds of work this site will publish and maintain.</p>
+            <h2><a href="blog/ai-accelerated-security-research.html">What belongs in AI-accelerated security research?</a></h2>
+            <p>A short framing note for the kinds of work this archive will publish.</p>
           </article>
-          <article class="card">
-            <p class="meta">Research · In progress</p>
-            <h3><a href="research/">Research index</a></h3>
-            <p>A durable home for published reports, papers, artifacts, and reproductions.</p>
+          <article class="index-row">
+            <p class="meta">Research · index</p>
+            <h2><a href="research/">Published research and technical reports</a></h2>
+            <p>Findings, methodology, artifacts, benchmarks, and reproductions.</p>
           </article>
-          <article class="card">
-            <p class="meta">Tools · Public area</p>
-            <h3><a href="tools/">Tooling catalog</a></h3>
-            <p>A catalog for open repositories, demos, harnesses, and security research utilities.</p>
+          <article class="index-row">
+            <p class="meta">Tools · index</p>
+            <h2><a href="tools/">Public tooling and research utilities</a></h2>
+            <p>Harnesses, scripts, demos, and small tools that support research workflows.</p>
           </article>
         </div>
+      </section>
+
+      <section class="section notes">
+        <h2>Research threads</h2>
+        <ul>
+          <li>Agent-assisted code review and vulnerability discovery</li>
+          <li>Model support for root-cause analysis and exploit reasoning</li>
+          <li>Evaluation methods for security-focused AI workflows</li>
+          <li>Secure operation of AI-enabled development and research tooling</li>
+        </ul>
       </section>
     </main>
 
